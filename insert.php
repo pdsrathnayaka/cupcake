@@ -12,12 +12,12 @@
         echo 'Database not selctied';
     }
 
-    $Name = $_POST['username'];
+    $Name = $_POST['name'];
     $Email = $_POST['email'];
     $Phone = $_POST['phone'];
     $Message = $_POST['message'];
 
-    $sql = "INERT INTO contact (Name,Email,Phone,Message) VALUES ('$Name','$Email','$Phone','$Message')";
+    $sql = "INSERT INTO contact (Name,Email,Phone,Message) VALUES ('$Name','$Email','$Phone','$Message')";
 
     if (!mysqli_query($con,$sql))
     {
