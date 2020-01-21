@@ -67,7 +67,10 @@ h2{
     font-size: 4em;
     text-align: center;
 }
-
+.videowrapper{
+    text-align:center;
+    font-size:2em; 
+}
 
 .footer-main-div{
     width: 100%;
